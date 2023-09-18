@@ -1,0 +1,493 @@
+/* All */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar{
+    width: 100%;
+    margin: auto;
+    background-color:#f1f3ff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.Navbar{
+    padding-top: 20px;
+    height: 36px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.Logo{
+    width: 100px;
+    height: 34px;
+    background: #0D28A6;
+}
+
+.Right-Nav{
+    display: flex;
+    color: black;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 400;
+    line-height: 20px;
+    word-wrap: break-word;
+    gap: 32px;
+}
+
+.Register{
+    width: 81px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #5CB85F;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    border: none;
+}
+
+.Right-Nav a{
+    margin-top: auto;
+    margin-bottom: auto;
+    text-decoration: none;
+    color: black;
+}
+
+/* Main Page */
+.content{
+    width: 80%;
+    margin: auto;
+}
+
+.caption{
+    width: 100%;
+    margin: auto;
+    background-color: #f1f3ff;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.Caption{
+    display: flex;
+    background-color: #f1f3ff;
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.Caption-Left{
+    flex: 1;
+    width: 600px;
+}
+
+h1{
+    font-family: Helvetica;
+    width: 600px;
+    word-wrap: break-word;
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h3{
+    width: 568px;
+    color: black;
+    font-family:Helvetica;
+}
+
+.Sewa-Mobil{
+    width: 180px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #5CB85F;
+    border-radius: 2px;
+    border: 0.50px solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.Caption-Right img{
+    width: 45%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* Page 2 */
+.container-Content{
+    width: 100%;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.content2{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.content2 .img img{
+    width: 400px;
+}
+
+.content2 .img{
+    margin-left: 100px;
+}
+
+.Lokasi{
+    width: 468px;
+}
+
+.Lokasi h1{
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word;
+}
+.Lokasi .p{
+    width: 468px;
+    color: black;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-weight: 300;
+    line-height: 20px;
+}
+.Item-Fitur img{
+    width: 24px;
+    height: 24px;
+}
+
+.Item-Fitur{
+    display: flex;
+    gap: 15px;
+    padding-top:5px;
+}
+
+.Fitur{
+    padding-top: 10px;
+}
+
+/* Why Us */
+.d-flex{
+    width: 468px;
+    margin-left: 150px;
+    color: black;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.d-inline-flex{
+    margin-left: 150px;
+    width: 468px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.container-WhyUs{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    gap: 28px;
+}
+
+.Kotak{
+    width: 268px;    
+    height: auto;
+    border: 1px solid var(--neutral-02, #D0D0D0);
+    margin: 10px;
+    border-radius: 8px;
+    gap: 16px;
+    flex-direction: column;
+    display: flex;
+    align-items: flex-start;
+    padding: 24px;
+    margin-bottom: 100px;
+}
+
+.Kotak p1{
+    color: black;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.Kotak p{
+    color: black;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    width: 220px;
+}
+
+/* Testimoni */
+.Testimoni{
+    margin-bottom: 20px;
+}
+
+.Testimoni .Judul-Carousel{
+    width: 468px;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    padding-bottom: 20px;
+}
+
+.Testimoni .deskripsi-Carousel{
+    width: 468px;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.Testimoni-Box{
+    width: auto;
+    display: flex;
+    gap: 28px;
+    margin: auto;
+}
+
+.Testimoni-Box .Box .photo{
+    margin: auto;
+}
+
+.Box{
+    width: auto ;
+    border-radius: 8px;
+    height: auto;
+    margin: auto;
+    background: #F1F3FF;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.15);
+    gap: 16px;
+    flex-direction: row;
+    display: flex;
+    padding-right: 50px;   
+    padding-left: 50px;   
+    padding-top: 80px;   
+    padding-bottom: 80px;   
+    justify-content: flex-end;
+}
+
+.Box .description{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.Box img{
+    width: 80px;
+    height: 80px;
+    border-radius: 80px;
+    flex-shrink: 0;
+}
+
+.description span{
+    font-weight: 600;
+}
+
+.Review {
+    display: flex;
+}
+
+.Review img{
+    width: 16px;
+    height: 16px;
+    fill: var(--allert-warning, #F9CC00);
+}
+
+.Logo-Carousel img{
+    margin-right: 20px;
+}
+
+/* Box Sewa Mobil */
+.rounded-box{
+    width: 1168px;
+    height: 326px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    background:var(--primary-dark-blue-04, #0D28A6);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+.Title-Sewa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.Title-Sewa p{
+    color: var(--neutral-01, #FFF);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    padding-top: 50px;
+}
+
+.Title-Sewa h3{
+    color: var(--neutral-01, #FFF);
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    width: 468px;
+    padding-top: 15px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.Title-Sewa button{
+    width: 180px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #5CB85F;
+    border: 0.50px solid;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: inline-flex;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    margin-top: 10px;
+    font-weight: 500;
+    border-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+}
+
+/* FAQ */
+.FAQ {
+    display: flex;
+    width: 1300px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+
+.text{
+    flex: 1;
+}
+
+.text p{
+    width: 368px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 36px;
+    margin-left: 175px;
+    font-weight: bold;
+    gap: 16px;
+}
+
+.text p2{
+    width: 368px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    margin-left: 175px;
+}
+.accordionn{
+    flex: 1;
+}
+
+/* Footer */
+.Footer{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+    height: 128px;
+    margin-left: 150px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    font-size: 14px;
+}
+
+.Section1 .Section2 .Section3 .Section4{
+    font-family: Helvetica;
+}
+
+.Section1{
+    width: 268px;
+    position: relative;
+    margin-left: 20px;
+}
+
+.Section2{
+    flex-direction: column;
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.Section3{
+    width: 268px;
+    position: relative;
+}
+
+.Section3 p{
+    width: 268px;
+    position: relative;
+    left: 0;
+    top: 0;
+    font-family: Helvetica;
+    font-weight: 300;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+.Section3 .Connect img{
+    padding-left: 10px;
+}
+
+.Section2 p{
+    font-weight: 500;
+    font-size: 14px;
+}
+
