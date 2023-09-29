@@ -18,45 +18,63 @@ body{
 }
 
 /* Main Page */
-.caption{
-    background-color: #f1f3ff;
-    padding-top: 100px;
-}
-.gap {
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-.col p{
+.container-Content{
     width: 100%;
-    color: black;
-    color: #000;
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+.content2{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.content2 .img img{
+    width: 400px;
+}
+
+.content2 .img{
+    margin-left: 100px;
+}
+
+.Lokasi{
+    width: 468px;
+}
+
+.Lokasi h1{
     font-family: Helvetica;
-    font-size: 14px;
+    font-size: 24px;
     font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    word-wrap: break-word;
+    width: auto;
+}
+.Lokasi .p{
+    width: 468px;
+    color: black;
+    font-size: 14px;
+    font-family: Helvetica;
     font-weight: 300;
+    line-height: 20px;
+    text-align: left;
+}
+.Item-Fitur img{
+    width: 24px;
+    height: 24px;
 }
 
-.col button{
-    width: 180px;
-    height: 36px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background: #5CB85F;
-    border-radius: 1px;
-    border: 0.50px solid;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    display: inline-flex;
-    color: white;
-    border-radius: 5px;
-    margin-top: 10px;
-    font-weight: 500;
+.Item-Fitur{
+    display: flex;
+    gap: 15px;
+    padding-top:5px;
 }
-/* Page 2 */
 
+.Fitur{
+    padding-top: 10px;
+}
 
 
 @media (max-width: 768px) {
@@ -64,60 +82,60 @@ body{
       padding-top: 80px;
       margin-bottom: 70px;
     }
-
+  
     .content2 {
       flex-direction: column;
       align-items: center;
     }
-
+  
     .content2 .img img {
       width: 100%;
       max-width: 300px;
     }
-
-    .gap {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
+  
     .content2 .img {
       margin-left: 0;
       margin-bottom: 20px;
     }
-
+  
     .Lokasi {
-      width: 100%;
+      width: 100%; 
       text-align: left;
     }
-
+  
     .Lokasi h1 {
-      font-size: 20px;
+      font-size: 20px; 
       margin-top: 50px;
       text-align:justify;
     }
-
+  
     .Lokasi .p {
       width: 328px;
       text-align: justify;
       font-size: 14px;
       align-self: stretch;
     }
+
+    .Item-Fitur p{
+        width: 100%;
+        text-align: left;
+    }
+    .Item-Fitur img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    .Item-Fitur {
+      gap: 10px; 
+      padding-top: 5px;
+    }
+  
+    .Fitur {
+      padding-top: 10px;
+    }
   }
 
-
 /* Why Us */
-.d-flex{
-    color: black;
-    font-family: Helvetica;
-    font-size: 24px;
-    line-height: 36px;
-}
-
-.d-inline-flex{
-    font-family: Helvetica;
-    margin-bottom: 20px;
-}
-
 .Kotak{
     border: 1px solid var(--neutral-02, #D0D0D0);
     border-radius: 8px;
